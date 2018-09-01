@@ -5,7 +5,7 @@
 
 ```
 pip install -i https://pypi.douban.com/simple/ 
-pip install -i https://pypi.douban.com/simple/ django==1.9.8
+pip install -i https://pypi.douban.com/simple/ django==1.11.6
 ```
 
 ## 虚拟环境(在cmd下有效)
