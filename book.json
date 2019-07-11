@@ -1,5 +1,0 @@
-{
-  "title": "个人笔记",
-  "description": "学习记录",
-  "plugins": ["prism", "-highlight", "theme-comscore"]
-}
