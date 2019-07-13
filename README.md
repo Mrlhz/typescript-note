@@ -1,10 +1,26 @@
 # TypeScript学习之旅
 
+### 本地运行
+
+```bash
+git clone https://github.com/Mrlhz/typescript-note
+cd typescript-note
+npm i
+npm run start
+```
+
 ### 一些参考
 
 - [TypeScript Handbook github](https://github.com/zhongsp/TypeScript)
 - [中文文档](https://www.tslang.cn/docs/home.html)
 - [TypeScript](https://www.typescriptlang.org/)
+
+### 一些资源
+
+- [TypeScript 学习资源合集](https://juejin.im/entry/5b9e4a135188255c3a2d3695)
+- [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese/)
+- [TypeScript Deep Dive 中文版](https://github.com/jkchao/typescript-book-chinese)
+- [awesome-typescript](https://github.com/dzharii/awesome-typescript)
 
 ### 搭建开发环境
 
