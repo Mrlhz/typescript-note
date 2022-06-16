@@ -27,8 +27,6 @@ module.exports = {
   devtool: process.env.NODE_ENV === "production" ? false : "inline-source-map",
   // 这里使用webpack-dev-server，进行本地开发调试
   devServer: {
-    contentBase: "./dist",
-    stats: "errors-only",
     compress: false,
     host: "localhost",
     port: 8089
@@ -40,7 +38,8 @@ module.exports = {
     }),
     // 这里我们指定编译需要用模板，模板文件是./src/template/index.html，所以接下来我们要创建一个index.html文件
     new HtmlWebpackPlugin({
-      template: "./src/template/index.html"
+      template: "./src/template/index.html",
+      favicon: "./src/assets/favicon.ico"
     })
   ]
 };
